@@ -7,6 +7,10 @@ Mozete slobodno prosirit ideju pa ubacit prognozu po satima za ostatak dana, sto
 Na stranici koju sam poslao unesete ime grada u trazilicu i oznacite sto vam sve treba, npr. brzina vjetra, temperatura, padaline... odmah ispod vidjet cete generiran link za dohvatit te podatke. Sljedece vam je samo uz pomoc js-a procitat te podatke i napravit nesto u DOM-u na temelju njih.
 Rok za zadatak, nemate, iako bilo bi dobro da ga zavrsite do pocetka modula React-a. Uzivajte ..
 
+// LINK NA GOTOV PROJEKT
+
+https://prognozavremena.netlify.app/
+
 // API
 
 https://open-meteo.com/en/docs
