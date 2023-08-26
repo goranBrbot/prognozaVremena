@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  padding: 3%;
+  color: #e0e1dd;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(
+    to right bottom,
+    #0d1b2a,
+    #0f1d2d,
+    #121f30,
+    #142134,
+    #172337,
+    #1b283d,
+    #202d43,
+    #243249,
+    #2b3c54,
+    #324560,
+    #3a506b,
+    #415a77
+  );
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-align: right;
+}
+
+h1 {
+  font-family: "Bitter", serif;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #e0e1dd;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+p {
+  height: 50px;
+}
+
+.temp {
+  font-family: "Bitter", serif;
+  font-size: 7rem;
+  font-weight: bold;
+  color: #fbbf24;
+  margin: 0;
+}
+
+.tempSmall {
+  font-family: "Bitter", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fbbf24;
+  margin-top: 0;
+}
+
+main {
+  padding-top: 1rem;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#grafika {
+  margin-left: 5%;
+}
+
+#dnevnaPrognoza {
+  display: flex;
+  width: max-content;
+  color: #e0e1dd;
+  font-weight: 700;
+  border-radius: 2rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  background-image: linear-gradient(to top, #0d1b2a, #101e2f, #142133, #172538, #1b283d);
+  border-left: 1px solid #415a77;
+}
+
+#odabir {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  font-weight: bold;
+  width: 10em;
+  height: 2em;
+  padding: 0 1em 0 1em;
+  color: #415a77;
+  border-radius: 0.33em;
+  cursor: pointer;
+}
+
+button {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  font-weight: bold;
+  width: auto;
+  height: 2em;
+  padding: 0 1em 0 1em;
+  color: #415a77;
+  border-radius: 0.33em;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: left;
+  padding-top: 2rem;
+}
+
+#srce {
+  height: 0.8rem;
+}
