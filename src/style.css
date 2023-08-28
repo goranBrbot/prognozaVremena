@@ -6,14 +6,10 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100vh;
-  padding: 3%;
-  color: #e0e1dd;
-}
-
 body {
+  padding: 3%;
   font-family: "Open Sans", sans-serif;
+  color: #e0e1dd;
   background-image: linear-gradient(
     to right bottom,
     #0d1b2a,
@@ -75,23 +71,27 @@ main {
 section {
   display: flex;
   flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+#trenutnaPrognoza {
 }
 
 #grafika {
-  margin-left: 5%;
 }
 
 #dnevnaPrognoza {
-  display: flex;
-  width: max-content;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  background-image: linear-gradient(to top, #0d1b2a, #101e2f, #142133, #172538, #1b283d);
+  border-left: 1px solid #415a77;
   color: #e0e1dd;
   font-weight: 700;
   border-radius: 2rem;
   padding-top: 10px;
   padding-bottom: 20px;
   padding-right: 40px;
-  background-image: linear-gradient(to top, #0d1b2a, #101e2f, #142133, #172538, #1b283d);
-  border-left: 1px solid #415a77;
 }
 
 #odabir {
