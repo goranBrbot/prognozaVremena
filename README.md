@@ -6,7 +6,6 @@ Na stranici koju sam poslao unesete ime grada u trazilicu i oznacite sto vam sve
 
 ## LINK NA GOTOV PROJEKT
 
-<https://prognozavremena.netlify.app/>
 <https://prognoza-vremena.vercel.app/>
 
 ## API
