@@ -4,13 +4,15 @@
   "description": "Vremenska prognoza za gradove u HR",
   "main": "script.js",
   "scripts": {
-    "test": "dev"
+    "test": "bash -c \"start chrome \"127.0.0.1:5500/src/index.html\"\"",
+    "build": "webpack –mode production"
   },
   "author": "Goran Brbot",
   "license": "ISC",
   "devDependencies": {
-    "react": "^18.2.0",
-    "tailwindcss": "^3.3.3",
     "webpack": "^5.88.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
   }
 }
